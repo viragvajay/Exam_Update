@@ -1,0 +1,210 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    background-image: url(../pics/jenny-caywood-VGYiE0Rb3fA-unsplash.jpg);
+    opacity: 0.95;
+    background-size: cover;
+
+}
+
+.nav_link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #314e70;
+    border: 0.1px solid white;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.navigation_container {
+    background-color: #314e70;
+    background-size: cover;
+    background-position: top;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+}
+
+.logo {
+    height: 60px;
+    margin-left: 57px;
+    margin-top: 30px;
+
+}
+
+.header_container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
+/*main design*/
+.advert-container {
+    margin-top: 60px;
+    border: 5px solid black;
+
+
+}
+
+.limited {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.advert-text {
+    align-content: center;
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+.paragraph {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+
+
+/* footer*/
+.some_container {
+    margin-bottom: 50px;
+}
+
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.join {
+    font-family: 'open sans';
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*
+.some_container {
+    width: 100%;
+    background-image: url(../pics/wave.png);
+    margin-bottom: 50px;
+    position: fixed;
+}
+
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.join {
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+*/
+
+@media (min-width: 610px) {
+
+    .some_container {
+        width: 100%;
+
+    }
+
+    .join {
+        font-size: 35px;
+        font-family: 'open sans';
+    }
+
+    .social_icons {}
+
+    .icons {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 870px) {
+
+    .navigation_container {
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph {
+        text-align: justify;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        color: black;
+    }
+
+}
