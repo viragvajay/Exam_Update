@@ -66,9 +66,28 @@ main {
 
 }
 
+.header_container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
 /*main design*/
+
+.stopmotion_container {
+    width: 100%;
+
+}
+
+.video {
+    margin-top: 60px;
+    max-width: 100%;
+
+}
+
 .advert-container {
     margin-top: 60px;
+    border: 5px solid black;
 
 
 }
@@ -89,9 +108,9 @@ main {
 
 .paragraph {
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: brown;
+    color: black;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 20px;
@@ -100,7 +119,40 @@ main {
 
 
 /* footer*/
+.some_container {
+    margin-bottom: 50px;
+}
 
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.join {
+    font-family: 'open sans';
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*
 .some_container {
     width: 100%;
     background-image: url(../pics/wave.png);
@@ -132,12 +184,32 @@ main {
     margin: 10px;
     text-decoration: none;
 }
+*/
 
+@media (min-width: 610px) {
 
-@media (min-width: 610px) {}
+    .video {
+        max-width: 80%;
+        justify-content: center;
+        display: block;
 
-.some_container {
-    width: 100%;
+    }
+
+    .some_container {
+        width: 100%;
+
+    }
+
+    .join {
+        font-size: 35px;
+        font-family: 'open sans';
+    }
+
+    .social_icons {}
+
+    .icons {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 870px) {
@@ -149,9 +221,9 @@ main {
 
     .paragraph {
         text-align: justify;
-        font-family: 'Lobster', cursive;
+        font-family: 'Open Sans', sans-serif;
         font-size: 40px;
-        color: brown;
+        color: black;
     }
 
 }
